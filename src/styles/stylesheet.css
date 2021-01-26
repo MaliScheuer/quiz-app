@@ -1,86 +1,9 @@
-*{
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 14px; 
-    font-family: "Verdana";
-    margin: 0;
-    
-    
-}
-
-
-header {
-    background-color: mediumaquamarine;
-    padding: 2rem;
-    
-}
-
-h1 {
-    color: white;
-}
-
-
-.questionbox{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1.5rem; 
-    background-color: #cecece;
-    margin: 2rem;
-    border-radius: 1.5rem;
-   
-}
-
-.questionbox__headline {
-    color: white;
-}
-
-.questionbox__tags ul {
-    margin: 0px;
-    list-style:none;
-    text-align: center; 
-}
+@import "./base.css";
+@import "./components/questionbox.css";
+@import "./components/navigation.css";
+@import "./components/header.css";
 
 
 
-.questionbox__tags li {
-    display: inline-block;
-    background-color: rgb(152, 236, 208);
-    color: white; 
-    margin: 1rem 0.1rem;
-    padding: 1rem;
-    border-radius: 5px; 
-    font-size: 0.8rem;
-      
-    }
 
 
-   
-
-.questionbox__button {
-    background-color: mediumaquamarine;
-    border: none; 
-    color: white; 
-    font-size: 1rem;
-    padding: 0.7rem;
-    border-radius: 5px;   
-}
-
-nav li {
-    display: inline-block;
-    background-color: mediumaquamarine;
-    color: white; 
-    padding: 0.7rem;
-    font-size: 0.8rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-}
-
-.navi {
-    display:flex;   
-}

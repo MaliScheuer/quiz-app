@@ -1,0 +1,59 @@
+
+
+.questionbox{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1.5rem; 
+    background-color: rgb(229, 235, 233);
+    margin: 2rem;
+    border-radius: 1.5rem;
+   
+}
+
+.questionbox__headline {
+    color: rgb(124, 16, 70);
+    padding: 2rem auto;
+    margin-bottom: 1.3rem;
+
+}
+
+
+.questionbox__question {
+    margin: 1rem auto;
+}
+
+.questionbox__answer {
+    margin: 1rem auto;
+}
+
+
+
+.questionbox__tags ul {
+    margin: 0px;
+    text-align: center; 
+}
+
+
+
+.questionbox__tags li {
+    display: inline-block;
+    border: solid 3px rgb(124, 16, 70);
+    color:rgb(124, 16, 70);
+    padding: 2rem;
+    margin: 1rem 0.1rem;
+    padding: 0.8rem;
+    border-radius: 5px; 
+    font-size: 0.8rem;
+      
+    }
+
+
+   
+.questionbox__button {
+    background-color: rgb(124, 16, 70);
+    color: white; 
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;   
+}
