@@ -3,10 +3,15 @@
 .nav {
     display:flex; 
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-evenly;
     align-content: center;
     background: orange;
-    
+    margin-bottom: 0;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+   
 }
 
 
@@ -15,21 +20,22 @@
     background-color: orange;
     color: white; 
     padding: 0.7rem;
-    font-size: 0.8rem;  
+    font-size: 0.8rem; 
+     
 }
+
 
 
 .nav a {
     text-decoration: none;
     color: white;
     font-size: 0.9rem;
+    text-align: center;
+    display:block;  
 
 }
 
 .nav img {
     width: 35px; 
-    border: solid green;
-    
-
+    margin: 0 auto; 
 }
-

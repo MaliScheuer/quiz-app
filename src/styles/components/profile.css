@@ -1,0 +1,53 @@
+
+.profile {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content:space-between;
+}
+
+.profile__img {
+    xorder-radius: 5rem;
+    
+}
+
+.profile__name {
+    color: white;
+    justify-items:center;
+}
+
+.profile__about {
+    grid-column: 1 /-1;
+    color: white;
+
+}
+
+.profile__skills__list {
+    color: white;
+}
+
+.profile__skills__list__34{
+    grid-row: 4;
+}
+
+
+.profile__skills li {
+display: inline-block;
+border: solid 3px white;
+color: white;
+margin: 1rem 0.1rem;
+padding: 0.8rem;
+border-radius: 5px; 
+font-size: 0.8rem;
+}
+
+.profile__logout {
+    background-color: orange;
+    color: white; 
+    font-size: 1rem;
+    border-radius: 0.5rem; 
+    grid-row: 5;
+}
+
+
+
