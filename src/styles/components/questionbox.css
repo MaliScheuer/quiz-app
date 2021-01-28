@@ -23,7 +23,7 @@
 
 .questionbox__bookmarkicon:hover {
     transform: scale(1.1);
-    color: orange;
+    color: #ffa500;
 }
 
 
@@ -37,7 +37,6 @@
 
 .questionbox__question {
     margin: 1rem auto;
-    
     
 }
 
@@ -75,6 +74,7 @@
     padding: 0.8rem;
     border-radius: 5px; 
     font-size: 0.8rem;
+    xtext-align: center;
     
     }
 
@@ -82,6 +82,11 @@
     .questionbox__tags__2:hover,
     .questionbox__tags__3:hover,
     .questionbox__tags__4:hover{
+        background:rgb(124, 16, 70);
+        color: white;
+    }
+
+    .questionbox__tags__4:active{
         background:rgb(124, 16, 70);
         color: white;
     }
