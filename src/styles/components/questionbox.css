@@ -15,14 +15,14 @@
 
 
 .questionbox__bookmarkicon {
-    align-self:end;
+    align-self:flex-end;
     position: absolute;
     top: -15px; 
     
 }
 
 .questionbox__bookmarkicon:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     color: #ffa500;
 }
 
@@ -37,6 +37,7 @@
 
 .questionbox__question {
     margin: 1rem auto;
+    text-align: center;
     
 }
 
@@ -62,7 +63,8 @@
 }
 
 .questionbox__tags {
-    align-self: center;
+    xalign-self: center;
+    text-align: center;
 }
 
 
@@ -74,7 +76,6 @@
     padding: 0.8rem;
     border-radius: 5px; 
     font-size: 0.8rem;
-    xtext-align: center;
     
     }
 

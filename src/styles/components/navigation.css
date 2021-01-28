@@ -35,6 +35,36 @@
 
 }
 
+
+
+.nav a:hover {
+    color: rgb(124, 16, 70);
+    font-weight: bold;
+}
+
+
+.nav a.active {
+    color: rgb(124, 16, 70);
+    font-weight: bold;
+}
+
+
+
+
+.nav li:hover a {
+    xcolor: rgb(124, 16, 70);
+}
+
+.nav li:active {
+    xbackground-color: rgb(124, 16, 70);
+}
+
+.nav li:active a {
+    xcolor: rgb(124, 16, 70);
+}
+
+
+
 .nav img {
     width: 35px; 
     margin: 0 auto; 

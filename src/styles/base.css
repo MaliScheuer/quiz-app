@@ -18,7 +18,10 @@ body {
     font-size: 1.1rem; 
     font-family: "Verdana";
     margin: 0;
-    background-color: rgb(124, 16, 70);
+    xbackground-color: rgb(124, 16, 70);
+    background-image: url("/images/background-img.jpg");
+    background-size: cover;
+ 
 }
 
 img {
@@ -35,5 +38,6 @@ img {
 }
 
 main {
+  margin-top: 8rem;
   margin-bottom: 8rem;
 }

@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App - Create </title>
-    <link rel="stylesheet" href="styles/stylesheet.css"> 
-    
+    <link rel="stylesheet" href="styles/stylesheet.css">
+
 </head>
+
 <body>
 
     <header>
-        <h1>NEUE FRAGEN ANLEGEN</h1>
+        <h1>NEUE FRAGEN</h1>
     </header>
 
 
@@ -18,32 +20,38 @@
         <section class="newquestion">
             <h2 class="newquestion__addquestion">Frage hinzufügen</h2>
             <div class="newquestion__addquestion__textarea">
-                <textarea cols= "30" rows= "8">Gib hier deine neue Frage ein</textarea>
+                <textarea cols="30" rows="6">Gib hier deine neue Frage ein</textarea>
             </div>
-            
+
             <h2 class="newquestion__addanswer">Antwort festlegen</h2>
-            <div class="newquestion__addanswer__textarea">  
-                <textarea cols= "30" rows= "10">Gib hier die Antwort auf die Frage ein</textarea>
+            <div class="newquestion__addanswer__textarea">
+                <textarea cols="30" rows="6">Gib hier die Antwort auf die Frage ein</textarea>
             </div>
 
             <h2 class="newquestion__addtags">Antwortmöglichkeiten</h2>
-            <div class="newquestion__addtags__textarea">  
-                <textarea cols= "30" rows= "5">Gib hier 4 Antwortmöglichkeiten ein (Trennung per Komma)</textarea>
+            <div class="newquestion__addtags__textarea">
+                <textarea cols="30" rows="4">Gib hier 4 Antwortmöglichkeiten ein (Trennung per Komma)</textarea>
             </div>
 
             <button class="newquestion__submitbutton" type="submit">Frage anlegen</button>
         </section>
     </main>
 
-    <footer>   
+
+    <footer>
         <nav>
             <ul class="nav">
-                <li><a href="/index.html"><img class="nav__home" src="images/icon-home.png" alt="icon home">Home</a></li>
-                <li><a href="/bookmarks.html"><img class="nav__bookmark" src="images/icon-bookmark.png" alt="icon bookmark">Bookmarks</a></li>
-                <li><a href="/create.html"><img class="nav__createnew" src="images/icon-create-new.png" alt="icon create new">Create</a></li>
-                <li><a href="/profile.html"><img class="nav__profile" src="images/icon-profile.png" alt="icon profile">Profile</a></li>
+                <li class="nav__home"><a href="/index.html"><img src="images/icon-home.png" alt="icon home">Home</a>
+                </li>
+                <li class="nav__bookmark"><a href="/bookmarks.html"><img src="images/icon-bookmark.png"
+                            alt="icon bookmark">Bookmarks</a></li>
+                <li class="nav__createnew"><a class="active" href="/create.html"><img src="images/icon-create-new.png"
+                            alt="icon create new">Create</a></li>
+                <li class="nav__profile"><a href="/profile.html"><img src="images/icon-profile.png"
+                            alt="icon profile">Profile</a></li>
             </ul>
         </nav>
     </footer>
 </body>
+
 </html>
