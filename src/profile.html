@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App - Profil</title>
-    
+    <link rel="stylesheet" href="styles/stylesheet.css">
+
 </head>
+
 <body>
 
     <header>
-        <h1>Mein Profil</h1>
+        <h1>DEIN PROFIL</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html"><img src="" alt="">Home</a></li>
-            <li><a href="bookmarks.html"><img src="" alt="">Bookmarks</a></li>
-            <li><a href="create.html"><img src="" alt="">Create</a></li>
-            <li><a href="profile.html"><img src="" alt="">Profile</a></li>
-        </ul>
-    </nav>
+
+    <main>
+        <section class="profile">
+            <img class="profile__img" src="images/profilfoto.jpg" alt="Profilfoto" width=350px>
+            <h2 class="profile__name">Marlena Scheuer</h2>
+            <p class="profile__about">ABOUT ME TEXT: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+                sint?</p>
 
 
-    <section>
-        
-        <img src="" alt="Profilfoto">
-        <h2>NAME</h2>
-        <p>ABOUT ME TEXT: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, sint?</p>
-            <h3>Meine Skills</h3>
-                <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
-                    <li>Skill 3</li>
-                    <li>Skill 4</li>
-                </ul>
-        <button>Logout</button>
-    </section>
+            <ul class="profile__skills__list">
+                <h3 class="profile__skills">Meine Skills</h3>
+                <li class="profile__skills__list__1">Skill 1</li>
+                <li class="profile__skills__list__2">Skill 2</li>
+                <li class="profile__skills__list__3">Skill 3</li>
+                <li class="profile__skills__list__4">Skill 4</li>
+            </ul>
+            <button class="profile__logout">Logout</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="nav">
+                <li><a href="/index.html"><img class="nav__home" src="images/icon-home.png" alt="icon home">Home</a>
+                </li>
+                <li><a href="/bookmarks.html"><img class="nav__bookmark" src="images/icon-bookmark.png"
+                            alt="icon bookmark">Bookmarks</a></li>
+                <li><a href="/create.html"><img class="nav__createnew" src="images/icon-create-new.png"
+                            alt="icon create new">Create</a></li>
+                <li><a href="/profile.html"><img class="nav__profile" src="images/icon-profile.png"
+                            alt="icon profile">Profile</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,39 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body, 
+h1, 
+h2,
+h3,
+p {
+    margin: 0;
+  }
+
+
+body {
+    font-size: 1.1rem; 
+    font-family: "Verdana";
+    margin: 0;
+    background-color: rgb(124, 16, 70);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+ 
+  ul,
+  ol {
+  list-style: none;
+  padding: 0;
+}
+
+main {
+  margin-bottom: 8rem;
+}
