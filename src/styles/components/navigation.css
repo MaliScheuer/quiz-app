@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-content: center;
-    background: orange;
+    background: var(--primary);
     margin-bottom: 0;
     position: fixed; 
     bottom: 0; 
@@ -17,8 +17,8 @@
 
 .nav li {
     display: inline-block;
-    background-color: orange;
-    color: white; 
+    background-color: var(--primary);
+    color: var(--secondary);
     padding: 0.7rem;
     font-size: 0.8rem; 
      
@@ -28,12 +28,42 @@
 
 .nav a {
     text-decoration: none;
-    color: white;
+    color: var(--secondary-light);
     font-size: 0.9rem;
     text-align: center;
     display:block;  
 
 }
+
+
+
+.nav a:hover {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+
+.nav a.active {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+
+
+
+.nav li:hover a {
+    xcolor: rgb(124, 16, 70);
+}
+
+.nav li:active {
+    xbackground-color: rgb(124, 16, 70);
+}
+
+.nav li:active a {
+    xcolor: rgb(124, 16, 70);
+}
+
+
 
 .nav img {
     width: 35px; 

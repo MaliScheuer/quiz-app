@@ -1,4 +1,16 @@
 
+:root {
+  --primary: rgb(229, 235, 233);
+  --secondary: rgb(67, 74, 86);
+  --secondary-light:  rgba(67, 74, 86, 0.589);
+  --white: white;
+  --red: rgb(231, 101, 91);
+
+}
+
+
+
+
 *,
 *::before,
 *::after{
@@ -18,7 +30,10 @@ body {
     font-size: 1.1rem; 
     font-family: "Verdana";
     margin: 0;
-    background-color: rgb(124, 16, 70);
+    xbackground-color: var(--secondary);
+    background-image: url("/images/background-img.jpg");
+    background-size: cover;
+ 
 }
 
 img {
@@ -35,5 +50,6 @@ img {
 }
 
 main {
+  margin-top: 8rem;
   margin-bottom: 8rem;
 }

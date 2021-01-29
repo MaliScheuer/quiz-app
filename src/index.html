@@ -11,6 +11,7 @@
 <body>
 
     <header>
+        <img class="logo" src="images/icon-food-grey-2.png" alt="food icon">
         <h1>FOOD QUIZ</h1>
     </header>
 
@@ -18,7 +19,7 @@
     <main>
 
         <section class="questionbox">
-            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-orange-outline.png" alt="icon bookmark"
+            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey-outline.png" alt="icon bookmark"
                 width=50px>
             <h2 class="questionbox__headline">Frage 1</h2>
             <p class="questionbox__question">Welches Organ „ernährt“ sich überwiegend von Kohlenhydraten?</p>
@@ -34,7 +35,7 @@
         </section>
 
         <section class="questionbox">
-            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-orange.png" alt="icon bookmark" width=50px>
+            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey.png" alt="icon bookmark" width=50px>
             <h2 class="questionbox__headline">Frage 2</h2>
             <p class="questionbox__question">Welcher Mangel kann bei rein vegetarischer Ernährung auftreten?</p>
             <button class="questionbox__button">Antwort anzeigen</button>
@@ -49,7 +50,7 @@
         </section>
 
         <section class="questionbox">
-            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-orange.png" alt="icon bookmark" width=50px>
+            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey.png" alt="icon bookmark" width=50px>
             <h2 class="questionbox__headline">Frage 3</h2>
             <p class="questionbox__question">Welches Gemüse enthält pro 100 Gramm die meisten Kohlenhydrate?</p>
             <button class="questionbox__button">Antwort anzeigen</button>
@@ -63,7 +64,7 @@
         </section>
 
         <section class="questionbox">
-            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-orange.png" alt="icon bookmark" width=50px>
+            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey.png" alt="icon bookmark" width=50px>
             <h2 class="questionbox__headline">Frage 4</h2>
             <p class="questionbox__question">Wie viel Gramm Zucker empfiehlt die WHO als Höchstmenge pro Tag?</p>
             <button class="questionbox__button">Antwort anzeigen</button>
@@ -77,17 +78,19 @@
         </section>
     </main>
 
+
     <footer>
         <nav>
             <ul class="nav">
-                <li><a href="/index.html"><img class="nav__home" src="images/icon-home.png" alt="icon home">Home</a>
+                <li class="nav__home"><a class="active" href="/index.html"><img src="images/icon-home-grey-outline.png"
+                            alt="icon home">Home</a>
                 </li>
-                <li><a href="/bookmarks.html"><img class="nav__bookmark" src="images/icon-bookmark.png"
+                <li class="nav__bookmark"><a href="/bookmarks.html"><img src="images/icon-bookmark-grey-outline.png"
                             alt="icon bookmark">Bookmarks</a></li>
-                <li><a href="/create.html"><img class="nav__createnew" src="images/icon-create-new.png"
-                            alt="icon create new">Create</a></li>
-                <li><a href="/profile.html"><img class="nav__profile" src="images/icon-profile.png"
-                            alt="icon profile">Profile</a></li>
+                <li class="nav__createnew"><a href="/create.html"><img src="images/icon-create-grey-outline.png"
+                            alt="icon create new">Neue Frage</a></li>
+                <li class="nav__profile"><a href="/profile.html"><img src="images/icon-profile-grey-outline.png"
+                            alt="icon profile">Profil</a></li>
             </ul>
         </nav>
     </footer>

@@ -5,7 +5,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 1.5rem; 
-    background-color: rgb(229, 235, 233);
+    background-color: var(--primary);
     margin: 2rem;
     border-radius: 1.5rem;
     position:relative;
@@ -15,20 +15,20 @@
 
 
 .questionbox__bookmarkicon {
-    align-self:end;
+    align-self:flex-end;
     position: absolute;
     top: -15px; 
     
 }
 
 .questionbox__bookmarkicon:hover {
-    transform: scale(1.1);
-    color: #ffa500;
+    transform: scale(1.2);
+    color: var(--primary);
 }
 
 
 .questionbox__headline {
-    color: rgb(124, 16, 70);
+    color: var(--secondary);
     margin-bottom: 1.3rem;
     align-self: center;
     text-shadow: 4px 4px 2px rgba(40, 40, 40, 0.3);
@@ -37,13 +37,14 @@
 
 .questionbox__question {
     margin: 1rem auto;
+    text-align: center;
     
 }
 
   
 .questionbox__button {
-    background-color: rgb(124, 16, 70);
-    color: white; 
+    background-color: var(--secondary);
+    color: var(--white);
     font-size: 1rem;
     padding: 1rem;
     border-radius: 0.5rem;   
@@ -62,19 +63,19 @@
 }
 
 .questionbox__tags {
-    align-self: center;
+    xalign-self: center;
+    text-align: center;
 }
 
 
 .questionbox__tags li {
     display: inline-block;
-    border: solid 3px rgb(124, 16, 70);
-    color:rgb(124, 16, 70);
+    border: solid 1.5px var(--secondary);
+    color: var(--secondary);
     margin: 1rem 0.1rem;
     padding: 0.8rem;
     border-radius: 5px; 
     font-size: 0.8rem;
-    xtext-align: center;
     
     }
 
@@ -82,11 +83,11 @@
     .questionbox__tags__2:hover,
     .questionbox__tags__3:hover,
     .questionbox__tags__4:hover{
-        background:rgb(124, 16, 70);
-        color: white;
+        background:var(--secondary);
+        color: var(--white);
     }
 
     .questionbox__tags__4:active{
-        background:rgb(124, 16, 70);
-        color: white;
-    }
+        background: var(--secondary);
+        color: var(--white);
+    } 
