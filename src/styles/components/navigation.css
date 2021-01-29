@@ -18,7 +18,7 @@
 .nav li {
     display: inline-block;
     background-color: var(--primary);
-    color: var(--white);
+    color: var(--secondary);
     padding: 0.7rem;
     font-size: 0.8rem; 
      
@@ -28,7 +28,7 @@
 
 .nav a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--secondary-light);
     font-size: 0.9rem;
     text-align: center;
     display:block;  

@@ -2,18 +2,24 @@
 
 header {
     background-color: var(--primary);
-    padding: 2rem;
+    padding: 1.3rem;
     position: fixed; 
     top: 0; 
     width: 100%;
     z-index: 1;
+    display:flex;
     
 }
 
 h1 {
     color: var(--secondary);
     font-size: 1.8rem;
+    xfont-family:'Courier New', Courier, monospace;
 }
 
-
+.logo {
+    width: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+}
       

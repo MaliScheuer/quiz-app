@@ -2,9 +2,9 @@
 :root {
   --primary: rgb(229, 235, 233);
   --secondary: rgb(67, 74, 86);
-  --secondary-light: rgb(229, 235, 233);
+  --secondary-light:  rgba(67, 74, 86, 0.589);
   --white: white;
-  --red: rgb(231, 77, 67);
+  --red: rgb(231, 101, 91);
 
 }
 
