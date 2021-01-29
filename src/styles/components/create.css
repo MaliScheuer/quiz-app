@@ -5,7 +5,7 @@
     flex-direction: column;
     flex-wrap: wrap; 
     align-content:center;
-    background: rgb(229, 235, 233);
+    background: var(--secondary-light);
     margin: 2.5rem;
     border-radius: 1rem;
     padding-bottom: 1.5rem;
@@ -18,7 +18,7 @@
 .newquestion__addquestion,
 .newquestion__addanswer,
 .newquestion__addtags {
-    color:rgb(124, 16, 70);
+    color: var(--secondary);
     font-size: 1.3rem;
     text-shadow: 3px 3px 2px rgba(40, 40, 40, 0.6);
     align-self: center;
@@ -34,17 +34,16 @@ textarea {
     font-family: "Verdana";
     font-size: 0.7rem;
     font-style: italic;
-    background-color: rgb(229, 235, 233);
+    background-color: var(--secondary-light);
     padding: 1.5rem; 
-    background-color: rgb(229, 235, 233);
     border-radius: 1.5rem;
     box-shadow: 10px 10px 4px rgba(40, 40, 40, 0.6);
  
 }
 
 .newquestion__submitbutton {
-    background-color: orange;
-    color: white; 
+    background-color: var(--secondary);
+    color: var(--white);
     font-size: 1rem;
     margin-top: 2rem;
     padding: 1rem;
