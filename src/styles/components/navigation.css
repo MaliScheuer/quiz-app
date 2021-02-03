@@ -51,21 +51,13 @@
 
 
 
-.nav li:hover a {
-    xcolor: rgb(124, 16, 70);
-}
-
-.nav li:active {
-    xbackground-color: rgb(124, 16, 70);
-}
-
-.nav li:active a {
-    xcolor: rgb(124, 16, 70);
-}
-
-
-
 .nav img {
     width: 35px; 
     margin: 0 auto; 
+}
+
+
+.filled_home_icon {
+    background-image: url("/images/icon-home-grey.png");
+
 }

@@ -23,7 +23,7 @@
 
 .questionbox__bookmarkicon:hover {
     transform: scale(1.2);
-    color: var(--primary);
+    
 }
 
 
@@ -62,8 +62,8 @@
     
 }
 
+
 .questionbox__tags {
-    xalign-self: center;
     text-align: center;
 }
 
@@ -100,6 +100,14 @@
     .show {
         opacity: 1;
     }
+
+    .show_tag {
+        background-color: var(--secondary);
+        color: var(--white);
+    }
+
+      
+    
 
     .filled_icon{
         background-image: url("/images/icon-bookmark-grey.png");
