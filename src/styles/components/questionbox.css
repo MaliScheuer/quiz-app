@@ -91,3 +91,16 @@
         background: var(--secondary);
         color: var(--white);
     } 
+
+    .questionbox__answer {
+        opacity: 0%;
+        transition: opacity 1s ease-in;
+    }
+
+    .show {
+        opacity: 1;
+    }
+
+    .filled_icon{
+        background-image: url("/images/icon-bookmark-grey.png");
+    }

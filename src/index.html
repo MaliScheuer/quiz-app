@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="styles/stylesheet.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -19,11 +20,12 @@
     <main>
 
         <section class="questionbox">
-            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey-outline.png" alt="icon bookmark"
-                width=50px>
+            <img class="questionbox__bookmarkicon filled_icon" src="images/icon-bookmark-grey-outline.png"
+                alt="icon bookmark" width=50px>
             <h2 class="questionbox__headline">Frage 1</h2>
             <p class="questionbox__question">Welches Organ „ernährt“ sich überwiegend von Kohlenhydraten?</p>
-            <button :active class="questionbox__button">Antwort anzeigen</button>
+            <p class="questionbox__answer" id="answer1">Die Anwort ist das Gehirn.</p>
+            <button class="questionbox__button" id="button1">Antwort anzeigen</button>
 
 
             <ul class="questionbox__tags">
@@ -35,10 +37,12 @@
         </section>
 
         <section class="questionbox">
-            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey.png" alt="icon bookmark" width=50px>
+            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey-outline.png" alt="icon bookmark"
+                width=50px>
             <h2 class="questionbox__headline">Frage 2</h2>
             <p class="questionbox__question">Welcher Mangel kann bei rein vegetarischer Ernährung auftreten?</p>
-            <button class="questionbox__button">Antwort anzeigen</button>
+            <p class="questionbox__answer" id="answer2">Die Anwort ist Eisenmangel.</p>
+            <button class="questionbox__button" id="button2">Antwort anzeigen</button>
 
 
             <ul class="questionbox__tags">
@@ -50,10 +54,12 @@
         </section>
 
         <section class="questionbox">
-            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey.png" alt="icon bookmark" width=50px>
+            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey-outline.png" alt="icon bookmark"
+                width=50px>
             <h2 class="questionbox__headline">Frage 3</h2>
             <p class="questionbox__question">Welches Gemüse enthält pro 100 Gramm die meisten Kohlenhydrate?</p>
-            <button class="questionbox__button">Antwort anzeigen</button>
+            <p class="questionbox__answer" id="answer3">Die Anwort sind Erbsen.</p>
+            <button class="questionbox__button" id="button3">Antwort anzeigen</button>
 
             <ul class="questionbox__tags">
                 <li class="questionbox__tags__1">Kürbis</li>
@@ -64,10 +70,12 @@
         </section>
 
         <section class="questionbox">
-            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey.png" alt="icon bookmark" width=50px>
+            <img class="questionbox__bookmarkicon" src="images/icon-bookmark-grey-outline.png" alt="icon bookmark"
+                width=50px>
             <h2 class="questionbox__headline">Frage 4</h2>
             <p class="questionbox__question">Wie viel Gramm Zucker empfiehlt die WHO als Höchstmenge pro Tag?</p>
-            <button class="questionbox__button">Antwort anzeigen</button>
+            <p class="questionbox__answer" id="answer4">Die Anwort ist 25 Gramm.</p>
+            <button class="questionbox__button" id="button4">Antwort anzeigen</button>
 
             <ul class="questionbox__tags">
                 <li class="questionbox__tags__1">50 Gramm</li>
