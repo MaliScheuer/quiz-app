@@ -57,15 +57,15 @@
 
 
 .questionbox__answer {
-    margin: 1rem auto;
-
-    
+    margin: 1rem auto;  
 }
 
 
 .questionbox__tags {
     text-align: center;
 }
+
+
 
 
 .questionbox__tags li {
@@ -83,25 +83,25 @@
     .questionbox__tags__2:hover,
     .questionbox__tags__3:hover,
     .questionbox__tags__4:hover{
-        background:var(--secondary);
-        color: var(--white);
+        xbackground:var(--secondary);
+        xcolor: var(--white);
     }
 
     .questionbox__tags__4:active{
-        background: var(--secondary);
-        color: var(--white);
+        xbackground: var(--secondary);
+        xcolor: var(--white);
     } 
 
     .questionbox__answer {
         opacity: 0%;
-        transition: opacity 1s ease-in;
+        transition: opacity 0.5s ease-in;
     }
 
     .show {
         opacity: 1;
     }
 
-    .show_tag {
+    .questionbox__tags .show_tag {
         background-color: var(--secondary);
         color: var(--white);
     }
