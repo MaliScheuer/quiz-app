@@ -1,8 +1,12 @@
 import { toggleAnswer } from './questionbox'
 import { toggleBookmark } from './questionbox'
+import { toggleRightTag } from './questionbox'
+
+
 
 const answerButtons = document.querySelectorAll('.questionbox__button')
 toggleAnswer(answerButtons)
+toggleRightTag(answerButtons)
 
 const iconBookmark = document.querySelectorAll('.questionbox__bookmarkicon')
 toggleBookmark(iconBookmark)
@@ -10,40 +14,46 @@ toggleBookmark(iconBookmark)
 
 
 
-/* Highlight answer1 */
+
+const homeIcon = document.querySelector('.nav__home')
+
+homeIcon.addEventListener('click', () => {
+    homeIcon.classList.add('nav__home__filled');
+})
+
+
+
+const bookmarkIcon = document.querySelector('.nav__bookmark')
+
+bookmarkIcon.addEventListener('click', () => {
+    bookmarkIcon.classList.add('nav__bookmark__filled');
+})
+
+
+
+
+/* Highlight answer1
 const button1 = document.querySelector('#button1')
 const answerTag1 = document.querySelector('.questionbox__tags__1')
 
 button1.addEventListener('click', () => {
     answerTag1.classList.toggle('show_tag');
 })
-/* Highlight answer1 */
+/*
 
-
-//const answerButton = document.querySelectorAll('.questionbox__button')
-
-answerButtons.forEach((buttons) => {
+/*answerButtons.forEach((buttons) => {
     buttons.addEventListener('click', () => {
-        const rightAnswer = buttons.querySelector('.right');
-        rightAnswer.classList.toggle('show_tag');
+        const answer = buttons.parentNode.querySelector('.questionbox__answer');
+        answer.classList.toggle('show');
 
-
+        buttons.innerText = answer.classList.contains('show') ? 'Antwort verbergen' : 'Antwort anzeigen';
     })
 
 })
+}*/
 
 
 
-
-
-/* Highlight Home Icon
-
-const homeIcon = document.querySelector('.nav__home__icon')
-
-homeIcon.addEventListener('click', () => {
-    homeIcon.classList.add('filled_home_icon');
-})
-*/
 
 
 

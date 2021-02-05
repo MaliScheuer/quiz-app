@@ -38,8 +38,8 @@
 
 
 .nav a:hover {
-    color: var(--secondary);
-    font-weight: bold;
+    xcolor: var(--secondary);
+    xfont-weight: bold;
 }
 
 
@@ -57,7 +57,11 @@
 }
 
 
-.filled_home_icon {
-    background-image: url("/images/icon-home-grey.png");
 
+.nav__home__filled{
+    background-image: url("/images/icon-home-grey.png");
+}
+
+.nav__bookmark__filled{
+    background-image: url("/images/icon-bookmark-grey.png");
 }
