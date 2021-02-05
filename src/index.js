@@ -31,6 +31,19 @@ bookmarkIcon.addEventListener('click', () => {
 
 
 
+const createIcon = document.querySelector('.nav__createnew')
+
+createIcon.addEventListener('click', () => {
+    createIcon.classList.add('nav__create__filled')
+})
+
+const profileIcon = document.querySelector('.nav__profile')
+
+profileIcon.addEventListener('click', () => {
+    profileIcon.classList.add('nav__profile__filled')
+})
+
+
 
 /* Highlight answer1
 const button1 = document.querySelector('#button1')

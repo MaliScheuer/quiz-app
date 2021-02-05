@@ -60,8 +60,18 @@
 
 .nav__home__filled{
     background-image: url("/images/icon-home-grey.png");
+    z-index: 3;
 }
 
 .nav__bookmark__filled{
     background-image: url("/images/icon-bookmark-grey.png");
+}
+
+.nav__create__filled{
+    background-image: url("/images/icon-create-grey.png");
+}
+
+
+.nav__profile__filled{
+    background-image: url("/images/icon-profile-grey.png");
 }
