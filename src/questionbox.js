@@ -29,9 +29,9 @@ export function toggleBookmark(iconBookmark) {
 
 
 export function toggleRightTag(answerButtons) {
-    answerButtons.forEach((righttag) => {
-        righttag.addEventListener('click', () => {
-            const rightAnswer = righttag.parentNode.querySelector('.right');
+    answerButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+            const rightAnswer = button.parentNode.querySelector('.right');
             rightAnswer.classList.toggle('show_tag');
 
 
